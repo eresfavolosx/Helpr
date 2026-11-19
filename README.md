@@ -16,7 +16,7 @@ This civic initiative spans two coordinated components:
 1. **Volunteer Mobile Web App:** ([`eresfavolosx/hackeaporunacausa`](https://github.com/eresfavolosx/hackeaporunacausa) / [hackea.novu.works](https://hackea.novu.works)) — Used by prospective professional mentors to register, select causes/institutions of interest, and accept calendarized mentorship invitations.
 2. **Administrative Management Dashboard (This Repository):** Used by non-profit coordinators to review mentor profiles, approve credentials, and schedule 1-on-1 mentorship blocks.
 
-```
+```mermaid
 flowchart TD
     Mentor["Prospective Mentor<br/>(Mobile Web App)"] -->|Submits Application| DB["Data Store / Cloud"]
     DB -->|Application Queue| Admin["Non-Profit Coordinator<br/>(Helpr Web Dashboard)"]
